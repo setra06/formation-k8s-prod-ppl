@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-k
+spec:
+  selector:
+    app: webapp-k
+  ports:
+  - port: 80
+    targetPort: 80
